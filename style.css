@@ -1,0 +1,63 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #E8EBED; /* Meringue */
+  margin: 0;
+  padding: 20px;
+  color: #2C3F70; /* Blueberry */
+}
+
+h1 {
+  text-align: center;
+  color: #A5231C; /* Strawberry */
+}
+
+.grid {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px;
+}
+
+.year {
+  background-color: #C8D4E5; /* Buttercream */
+  border-radius: 12px;
+  padding: 20px;
+  min-width: 320px;
+  flex-shrink: 0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.cycle {
+  margin-bottom: 20px;
+}
+
+h2, h3 {
+  color: #2C3F70; /* Blueberry */
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #8089D2; /* Violet */
+  margin: 8px 0;
+  padding: 10px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  background-color: #2C3F70; /* Blueberry */
+}
+
+li.completed {
+  text-decoration: line-through;
+  background-color: #A5231C; /* Strawberry */
+}
